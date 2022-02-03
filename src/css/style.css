@@ -1,0 +1,116 @@
+/* ==================== INDEX =================== */
+/*      1. Font Faces                             */
+/*      2. Overall Setup                          */
+/*       - 2.1 Link styling                       */
+/*      3. Index Setup                            */
+/*      4. Leistungen Setup                       */
+/*      5. Kontakt Setup                          */
+/*      6. Impressum Setup                        */
+/* ============================================== */
+/* Farbpalette: #202020 #FF5800 #86513A #FFE7D4   */
+/* ============================================== */
+/**/
+/**/
+/* ==================== 1. Font Faces ==================== */
+/* lexend-mega-100 - latin */
+@font-face {
+  font-family: 'Lexend Mega';
+  font-style: normal;
+  font-weight: 100;
+  src: local(''),
+    url('../fonts/lexend-mega-v20-latin-100.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lexend-mega-v20-latin-100.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* lexend-mega-regular - latin */
+@font-face {
+  font-family: 'Lexend Mega';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/lexend-mega-v20-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/lexend-mega-v20-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* ==================== 2. Overall Setup ==================== */
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-margin: 100vh;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+}
+
+::selection {
+  color: #000;
+  background-color: #fff;
+}
+
+/* ==================== 2.1 Link styling ==================== */
+a:link {
+  color: inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+a:visited {
+  color: inherit;
+}
+
+a:active {
+  color: inherit;
+}
+
+/* ==================== 3. Index Setup ==================== */
+.mainheader {
+  background-color: #202020;
+  color: #FF5800;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  font-family: 'Lexend Mega';
+  font-weight: 100;
+}
+
+.mainheader>h1 {
+  margin: 0;
+  position: absolute;
+  bottom: .2rem;
+  left: 1rem;
+  font-weight: 100;
+  font-size: 6vw;
+}
+
+.mainheader>ul {
+  transform: rotate(-90deg);
+  display: inline-block;
+  position: absolute;
+  left: 2rem;
+  list-style: none;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  font-size: 4vw;
+  color: #86513A;
+  top: 0;
+}
+
+.mainheader>svg {
+position: absolute;
+right: 2rem;
+top: 1rem;
+}
+
+
+/* ==================== 4. Leistungen Setup ==================== */
+/* ==================== 5. Kontakt Setup ==================== */
+/* ==================== 6. Impressum Setup ==================== */
