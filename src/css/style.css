@@ -37,6 +37,18 @@
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* comforter-regular - latin */
+@font-face {
+  font-family: 'Comforter';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+    url('../fonts/comforter-v3-latin-regular.woff2') format('woff2'),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('../fonts/comforter-v3-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 /* ==================== 2. Overall Setup ==================== */
 * {
   box-sizing: border-box;
@@ -117,6 +129,30 @@ a:active {
   font-weight: 400;
 }
 
+.projects>h1 {
+  position: absolute;
+  left: 2vw;
+  margin: 0;
+  font-family: 'Comforter';
+  font-size: 20vh;
+  text-decoration: underline;
+}
+
+#latestWork>a {
+  position: absolute;
+  display: inline-block;
+  top: 30%;
+  left: 11vw;
+}
+
+.projects>div>a {
+  position: absolute;
+  height: 500px;
+  width: 500px;
+  top: 22%;
+  right: 0;
+}
+
 #projects {
   display: inline-block;
   position: absolute;
@@ -124,6 +160,12 @@ a:active {
   bottom: 1px;
   margin: 0;
   padding: 0;
+}
+
+.projects>a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 /* ==================== 5. About me Setup ==================== */
@@ -145,6 +187,41 @@ a:active {
   margin: 0;
   padding: 0;
 }
+
+.aboutme>h1 {
+  font-family: 'Comforter';
+  font-size: 20vh;
+  text-decoration: underline;
+  padding-left: 20px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: F #FFF;
+}
+
+.aboutme>h3 {
+  padding-left: 50px;
+  margin: 0;
+}
+
+.aboutme>h6 {
+  padding-left: 50px;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.aboutme>div {
+  position: absolute;
+  display: block;
+  padding-left: 50px;
+  margin-bottom: 10px;
+}
+
+.aboutme>a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
 /* ==================== 6. Contact Setup ==================== */
 .contact {
   background-color: #FF5800;
@@ -164,6 +241,13 @@ a:active {
   margin: 0;
   padding: 0;
 }
+
+.contact>a {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
 /* ==================== 7. Impressum ==================== */
 .impressum {
   background-color: #101010;
@@ -173,6 +257,26 @@ a:active {
   height: 20vh;
   font-family: 'Lexend Mega';
   font-weight: 400;
+}
+
+.impressum>ul{
+  position: absolute;
+  left: 15vw;
+  top: 7vh;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+
+.impressum>ul>li{
+  display: inline;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-right: 1px solid #FFF;
+}
+
+.impressum>ul>li:last-child {
+  border-right: none;
 }
 
 #impressum {
