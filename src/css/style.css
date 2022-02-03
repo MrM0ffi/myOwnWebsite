@@ -3,9 +3,10 @@
 /*      2. Overall Setup                          */
 /*       - 2.1 Link styling                       */
 /*      3. Index Setup                            */
-/*      4. Leistungen Setup                       */
-/*      5. Kontakt Setup                          */
-/*      6. Impressum Setup                        */
+/*      4. Projects Setup                         */
+/*      5. About me Setup                         */
+/*      6. Contact Setup                          */
+/*      7. Impressum                              */
 /* ============================================== */
 /* Farbpalette: #202020 #FF5800 #86513A #FFE7D4   */
 /* ============================================== */
@@ -56,6 +57,7 @@ body {
 /* ==================== 2.1 Link styling ==================== */
 a:link {
   color: inherit;
+  text-decoration: none;
 }
 
 a:hover {
@@ -72,45 +74,112 @@ a:active {
 
 /* ==================== 3. Index Setup ==================== */
 .mainheader {
-  background-color: #202020;
+  background-color: #101010;
   color: #FF5800;
   position: relative;
   width: 100%;
-  height: 100vh;
+  height: 101vh;
   font-family: 'Lexend Mega';
-  font-weight: 100;
-}
-
-.mainheader>h1 {
-  margin: 0;
-  position: absolute;
-  bottom: .2rem;
-  left: 1rem;
-  font-weight: 100;
-  font-size: 6vw;
+  font-weight: 400;
 }
 
 .mainheader>ul {
-  transform: rotate(-90deg);
   display: inline-block;
   position: absolute;
-  left: 2rem;
   list-style: none;
-  text-align: right;
+  bottom: 1rem;
   margin: 0;
   padding: 0;
-  font-size: 4vw;
-  color: #86513A;
-  top: 0;
+  font-size: 6vw;
+}
+
+.mainheader>ul>li:hover {
+  background-color: #303030;
+  padding-bottom: 3rem;
+  font-size: 7vw;
+  padding-top: 40px;
 }
 
 .mainheader>svg {
-position: absolute;
-right: 2rem;
-top: 1rem;
+  position: absolute;
+  right: 2rem;
+  top: 1rem;
 }
 
+/* ==================== 4. Projects Setup ==================== */
+.projects {
+  background-color: #FF5800;
+  color: #101010;
+  position: relative;
+  width: 100%;
+  height: 101vh;
+  font-family: 'Lexend Mega';
+  font-weight: 400;
+}
 
-/* ==================== 4. Leistungen Setup ==================== */
-/* ==================== 5. Kontakt Setup ==================== */
-/* ==================== 6. Impressum Setup ==================== */
+#projects {
+  display: inline-block;
+  position: absolute;
+  list-style: none;
+  bottom: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==================== 5. About me Setup ==================== */
+.aboutme {
+  background-color: #101010;
+  color: #FF5800;
+  position: relative;
+  width: 100%;
+  height: 101vh;
+  font-family: 'Lexend Mega';
+  font-weight: 400;
+}
+
+#aboutme {
+  display: inline-block;
+  position: absolute;
+  list-style: none;
+  bottom: 1px;
+  margin: 0;
+  padding: 0;
+}
+/* ==================== 6. Contact Setup ==================== */
+.contact {
+  background-color: #FF5800;
+  color: #101010;
+  position: relative;
+  width: 100%;
+  height: 101vh;
+  font-family: 'Lexend Mega';
+  font-weight: 400;
+}
+
+#contact {
+  display: inline-block;
+  position: absolute;
+  list-style: none;
+  bottom: 1px;
+  margin: 0;
+  padding: 0;
+}
+/* ==================== 7. Impressum ==================== */
+.impressum {
+  background-color: #101010;
+  color: #FF5800;
+  position: relative;
+  width: 100%;
+  height: 20vh;
+  font-family: 'Lexend Mega';
+  font-weight: 400;
+}
+
+#impressum {
+  display: inline-block;
+  position: absolute;
+  list-style: none;
+  bottom: 1px;
+  margin: 0;
+  padding: 0;
+}
